@@ -111,6 +111,9 @@ ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
 TARGET_INIT_VENDOR_LIB ?= //$(DEVICE_PATH):init_xiaomi_kona
 TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_kona
 
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_alioth
+TARGET_RECOVERY_DEVICE_MODULES := libinit_alioth
+
 # Kernel
 ifeq ($(PRODUCT_VIRTUAL_AB_OTA),true)
 BOARD_BOOT_HEADER_VERSION := 3
