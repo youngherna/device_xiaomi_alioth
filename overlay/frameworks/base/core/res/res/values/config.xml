@@ -460,7 +460,6 @@
     -->
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
-<<<<<<< HEAD
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
@@ -794,4 +793,18 @@
 
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- An array of arrays of side fingerprint sensor properties relative to each display.
+         Note: this value is temporary and is expected to be queried directly
+         from the HAL in the future. -->
+    <array name="config_sfps_sensor_props" translatable="false">
+        <item>@array/config_sfps_sensor_props_0</item>
+    </array>
+
+    <array name="config_sfps_sensor_props_0" translatable="false">
+        <item>local:4630946736638489729</item>
+        <item>1080</item>
+        <item>965</item>
+        <item>115</item>
+    </array>
 </resources>
