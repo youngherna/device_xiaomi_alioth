@@ -183,6 +183,10 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+# Camera
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/camera/camera_cnf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_cnf.txt
+
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
