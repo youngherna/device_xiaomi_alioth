@@ -15,6 +15,14 @@
             <instance>slot2</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="false">
+        <name>android.hardware.graphics.composer</name>
+        <version>2.1-2</version>
+        <interface>
+            <name>IComposer</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>com.qualcomm.qti.dpm.api</name>
         <version>1.0</version>
